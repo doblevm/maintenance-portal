@@ -1,0 +1,20 @@
+{
+  "name": "cod-lis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "env-cmd -f config/dev.env nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "VELASQUEZ, Vladimir",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.19"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}
